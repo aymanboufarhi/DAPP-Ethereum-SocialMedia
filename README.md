@@ -7,16 +7,17 @@ MiniTwitter is a decentralized application (dApp) built on the Ethereum blockcha
 **First Page**: Connection to the wallet  
 ![](readmepic/1.png)
 
-**Home Page**: View posts and interact with them  
+**Home Page**: View, Write posts and interact with them  
 ![](readmepic/2.png)
-
-**Write a Post**  
 ![](readmepic/3.png)  
+
+**Edit your own posts**  
 ![](readmepic/4.png)
+![](readmepic/5.png)  
 
 **Each account can edit its own posts**  
-![](readmepic/5.png)  
-![](readmepic/6.png)
+![](readmepic/6.png)  
+![](readmepic/7.png)
 
 ## Features
 - **Create Posts**: Users can create posts that are stored on the Ethereum blockchain.
