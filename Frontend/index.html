@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Twitter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.8.0/web3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mini Twitter</h1>
+            <div class="wallet-section">
+                <button id="connectWallet" class="btn">Connecter Wallet</button>
+                <div id="accountInfo" class="account-info hidden">
+                    <span id="currentAccount"></span>
+                    <select id="accountSelector" class="hidden">
+                        <!-- Les comptes -->
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="post-creation hidden">
+                <div class="create-post">
+                    <textarea id="postContent" placeholder="Quoi de neuf ?"></textarea>
+                    <button id="submitPost" class="btn btn-primary">Poster</button>
+                </div>
+            </section>
+
+            <section class="posts-feed">
+                <h2>Fil d'actualité</h2>
+                <div id="postsList">
+                    <!-- Les posts -->
+                </div>
+            </section>
+        </main>
+
+        <!-- un post -->
+        <template id="postTemplate">
+            <div class="post" data-post-id="">
+                <div class="post-header">
+                    <span class="author"></span>
+                    <span class="timestamp"></span>
+                </div>
+                <div class="post-content">
+                    <p class="content-text"></p>
+                    <div class="edit-form hidden">
+                        <textarea class="edit-content"></textarea>
+                        <div class="edit-buttons">
+                            <button class="btn btn-save">Sauvegarder</button>
+                            <button class="btn btn-cancel">Annuler</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <div class="interactions">
+                        <button class="btn-like">
+                            👍 <span class="like-count">0</span>
+                        </button>
+                        <button class="btn-dislike">
+                            👎 <span class="dislike-count">0</span>
+                        </button>
+                    </div>
+                    <button class="btn-edit hidden">✏️ Modifier</button>
+                </div>
+                <div class="post-modified hidden">
+                    <small>Modifié le <span class="modified-date"></span></small>
+                </div>
+            </div>
+        </template>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
