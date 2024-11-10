@@ -1,7 +1,7 @@
 # SocialMedia-DAPP-Ethereum
 Ethereum-based DAPP utilizing smart contracts for decentralized user engagement
 
-MiniTwitter is a decentralized application (DAPP) built on the Ethereum blockchain. It allows users to interact with a social media-like platform in a fully decentralized and secure way. Users can create, edit, like, and dislike posts while leveraging the transparency and immutability of blockchain technology. This project is a simple example designed to help discover the decentralized application (dApp) field.
+MiniTwitter is a decentralized application (DAPP) built on the Ethereum blockchain. It allows users to interact with a social media-like platform in a fully decentralized and secure way. Users can create, edit, like, and dislike posts while leveraging the transparency and immutability of blockchain technology. This project is a simple example designed to help discover the decentralized application (DAPP) field.
 
 ## Overview
 **First Page**: Connection to the wallet  
